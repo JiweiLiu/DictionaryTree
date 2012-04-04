@@ -1,0 +1,7 @@
+A class representing a list of words stored as a tree. The cool part is it can be loaded/stored in a compact form. 
+
+The words "cat", "cape", "shoe", "ship", "sit", and "bed" would be stored like this:
+
+c(a(p(E)T)s(h(o(E)i(P))b(e(D))
+
+They can be retrieved and stored back into the tree structure in one pass. This makes the size of the wordlist file significantly smaller, and its load time around four times faster.
